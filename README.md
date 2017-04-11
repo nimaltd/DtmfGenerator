@@ -9,7 +9,7 @@ Please Do This ...
 <br />
 1) Enable FreeRTOS or not.  
 <br />
-2) Config your timer and Select Pwm channel and enable Update interrupt on CubeMX 
+2) Config your timer and Select Pwm channel and enable Update interrupt on CubeMX.On 72Mhz : Prescaler=17 , Counter Period = 255. 
 <br />
 3) Select "General peripheral Initalizion as a pair of '.c/.h' file per peripheral" on project settings.
 <br />
