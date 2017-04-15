@@ -154,5 +154,10 @@ void 	Dtmf_Send(char *CharCodeString,uint16_t	SpaceTime,uint16_t SendingTimeForP
 	_DTMF_RELASE();
 }
 //#####################################################################################################
-
+void 	Dtmf_SendChar(char CharCode,uint16_t SendingTime)
+{
+	if(Dtmf_S(CharCode,SendingTime)==true)
+		_DTMF_DELAY(SendingTime);	
+}
+//#####################################################################################################
 
